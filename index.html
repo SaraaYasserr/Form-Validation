@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset='utf-8'>
+      <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+      <title>form</title>
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+      <link rel='stylesheet' href='style.css'>
+   </head>
+   <body>
+      <h1>Complete This Form</h1>
+      <h1>♡♡♡♡♡♡♡♡♡♡♡♡♡</h1>
+      <form name="myForm" onsubmit="return validateForm()" method="post">
+         <div class="formdesign" id="name">
+            <p>Username:</p>
+            <input type="text" name="fname" placeholder="Enter your Name" required><b><span class="formerror"></span></b>
+         </div>
+         <div class="formdesign" id="pass">
+            <p>Password:</p>
+            <input type="Password" name="fpass" placeholder="Enter your Password" required><b><span class="formerror"></span></b>
+         </div>
+         <div class="formdesign" id="email">
+            <p>Email:</p>
+            <input type="email" name="femail" placeholder="Enter your Email" required><b><span class="formerror" ></span></b>
+         </div>
+         <div class="formdesign" id="phone">
+            <p>Phone Number:</p>
+            <input type="phone" name="fphone" placeholder="Enter your Phone Number" required><b><span class="formerror" ></span></b>
+         </div>
+         <div class="formdesign" id="credit">
+            <p>Credit Card:</p>
+            <input type="text" name="fcredit" placeholder="Enter your Credit Card Number" required><b><span class="formerror" ></span></b>
+         </div>
+         <div class="formdesign" id="date">
+            <p>Date:</p>
+            <input type="text" name="fdate" placeholder="Enter a Date" required><b><span class="formerror" ></span></b>
+         </div>
+         <input class="but" type="submit" value="Submit">
+      </form>
+      <script src='main.js'></script>   
+   </body>
+</html>
